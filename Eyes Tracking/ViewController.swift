@@ -54,10 +54,10 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     var lookAtTargetEyeRNode: SCNNode = SCNNode()
     
     // actual physical size of iPhoneX screen
-    let phoneScreenSize = CGSize(width: 0.0623908297, height: 0.135096943231532)
+    let phoneScreenSize = CGSize(width: 0.114901, height: 0.16449855)
     
     // actual point size of iPhoneX screen
-    let phoneScreenPointSize = CGSize(width: 375, height: 812)
+    let phoneScreenPointSize = CGSize(width: 834, height: 1194)
     
     var virtualPhoneNode: SCNNode = SCNNode()
     
